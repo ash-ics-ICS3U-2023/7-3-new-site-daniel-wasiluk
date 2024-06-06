@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Tim Hardaway</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header-left">TIM HARDAWAY</div>
+        <div class="header-right">
+            <a href="contact.html">CONTACT US</a>
+            <a href="order.html">ORDER</a>
+        </div>
+    </header>
+    <main>
+        <h1 style="color:white">Order</h1>
+        <div class="row">
+            <div class="column">
+                <img src="/images/pizza.png" alt="Pizza" style="width:100%">
+                <div class="menu-text">
+                    <p class="item-name">Pizzaz</p>
+                    <p class="price">$14.97</p>
+                    <p class="calories">2674kcal</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Pizzaz', 14.97)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="column">
+                <img src="/images/banana.png" alt="Banana" style="width:100%">
+                <div class="menu-text">
+                    <p class="item-name">Banana</p>
+                    <p class="price">$2.97</p>
+                    <p class="calories">89kcal</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Banana', 2.97)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="column">
+                <img src="/images/beans.png" alt="Beans" style="width:100%">
+                <div class="menu-text">
+                    <p class="item-name">Beans</p>
+                    <p class="price">$7.97</p>
+                    <p class="calories">453kcal</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Beans', 7.97)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="column">
+                <img src="/images/ratatouille.png" alt="Rat Food" style="width:100%;padding-top: 25%;padding-bottom: 16%;">
+                <div class="menu-text">
+                    <p class="item-name">Rat Food</p>
+                    <p class="price">$16.97</p>
+                    <p class="calories">781kcal</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Rat Food', 16.97)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="column">
+                <img src="/images/risotto.webp" alt="Risotto" style="width:100%">
+                <div class="menu-text">
+                    <p class="item-name">Risotto</p>
+                    <p class="price">$11.97</p>
+                    <p class="calories">453kcal</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Risotto', 11.97)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="column">
+                <img src="/images/maplesyrup.png" alt="Canadian Tap Water" style="width:100%">
+                <div class="menu-text">
+                    <p class="item-name">Canadian Tap Water</p>
+                    <p class="price">$3.97</p>
+                    <p class="calories">453kcal</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Canadian Tap Water', 3.97)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div id="cart-container" style="color:white; margin-top: 30px;"></div>
+    </main>
+    <footer>
+        <!-- Footer content can go here -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
